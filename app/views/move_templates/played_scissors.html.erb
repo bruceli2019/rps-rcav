@@ -1,0 +1,18 @@
+<!--we add the link to the relevant pages. note that we simply need the /rock because the file path is already specified in routes.rb -->
+<a href = "/rock">Play Rock</a>
+<a href = "/paper">Play Paper</a>
+<a href = "/scissors">Play Scissors</a>
+
+<h1>
+    We played scissors!
+</h1>
+
+<h1>
+    They played <%= @computer_move %>!
+</h1>
+
+<h1>
+    <%= @scissors_game_result %>
+</h1>
+
+<a href = "/">Rules</a>
